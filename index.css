@@ -1,0 +1,152 @@
+.nav-link {
+  opacity: 0.7;
+
+}
+
+.navbar-light .navbar-brand {
+  color: gold;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: gold;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  opacity: 0.6;
+  color: rgb(250, 216, 23);
+}
+
+.backgroundImage {
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+}
+
+header {
+   /*Sizing of the element*/
+   height: 600px;
+   width: 100%;
+   /*Set and adjust background image*/
+   background-size: cover;
+
+   text-align: center;
+}
+
+header p {
+   font-style: italic;
+   color: #FEEFDE;
+}
+
+header h1 {
+  color:white;
+}
+
+.services {
+  text-align: center;
+}
+
+.services i {
+  font-size: 24px;
+  padding: 10px 10px;
+
+  color: #FEEFDE;
+  background-color: #DDA158;
+
+  width: 80px;
+  height: 80px; 
+
+  border-radius: 50%;
+}
+
+.services span {
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+}
+
+.service {
+  background-color: #B68A54;
+  max-width: 100%;
+  background-size: cover;
+}
+
+hr {
+  color: white;
+}
+
+.icon {
+  width: 10vh;
+}
+
+.services p {
+  color:white;
+}
+
+section hr {
+  width: 87%;
+  height: 1px;
+  background-color: white;
+}
+
+.team {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.team img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: thin solid black;
+  object-fit: cover;
+}
+
+.team h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  padding-bottom: 30px;
+}
+
+.team h4 {
+  font-size: 20px;
+  color: gray;
+}
+
+.team p {
+  padding: 5px 5px;
+}
+
+.contact .input-group {
+  margin-bottom: 10px;
+}
+
+.contact .btn {
+  width: 100%;
+  background-color: rgb(163, 27, 27);
+  margin-top: 20px;
+}
+
+.contact .btn:hover {
+  background-color: red;
+  color: white;
+}
+
+footer .socialMedia i {
+  color: blue;
+  margin: 3.5px 3.5px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer .subscribe {
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10%;
+}
+
+footer span {
+  margin-left: 5px;
+  font-size: 14px;
+}

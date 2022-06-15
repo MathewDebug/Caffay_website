@@ -1,0 +1,13 @@
+body {
+  background-color: #A67942;
+}
+
+.menuHeading {
+  text-align: center;
+}
+
+.menuSides {
+  border: thin solid black;
+  display: inline;
+  padding: 10vh 10vw;
+}
